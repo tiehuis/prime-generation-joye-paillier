@@ -14,9 +14,9 @@
  *
  * This requires precomputed values from `pg_g`.
  */
-void jc_gpg(mpz_t rop, gmp_randstate_t rs,
-            const mpz_t p, const mpz_t v, const mpz_t w, const mpz_t t,
-            const mpz_t qmin, const mpz_t qmax);
+void gpg(mpz_t rop, gmp_randstate_t rs,
+         const mpz_t p, const mpz_t v, const mpz_t w, const mpz_t t,
+         const mpz_t qmin, const mpz_t qmax);
 
 /**
  * pg_g - parameter generation (general)
