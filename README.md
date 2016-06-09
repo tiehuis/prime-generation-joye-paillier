@@ -29,47 +29,49 @@ quicker and it does not require precomputations of carmichael values.
 
 # Benchmark
 
-## Unit Generation
+```
+# Unit Generation
   Primorial Value: 46
   Runs: 1000
 
-### Naive
+Naive:
   1.453659ms total
   1453.659000ns per run
   total iterations: 7033
   iterations per run: 7.033000
 
-### Fast
+Fast:
   1.947018ms total
   1947.018000ns per run
   total iterations: 2489
   iterations per run: 2.489000
 
-## Prime Generation
+# Prime Generation
   Bitsize: 1560
   Runs: 100
 
-### Naive
+Naive:
   27814.689353ms total
   278146893.530000ns per run
   total tested: 104549
   tested per run: 1045.490000
 
-### Fast
+Fast:
   30277.630804ms total
   302776308.040000ns per run
   total tested: 9429
   tested per run: 94.290000
 
-## Safe Prime Generation
+# Safe Prime Generation
   Bitsize: 256
   Runs: 1
 
-### Naive
+Naive:
   267.250007ms total
   267250007.000000ns per run
   total tested: 21062
   tested per run: 21062.000000
+```
 
 # Todo
 
