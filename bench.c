@@ -576,6 +576,6 @@ int main(void)
 {
     srand(time(NULL));
     bench_unit_generation(1000);
-    bench_prime_generation(10, 512);
+    bench_prime_generation(100, 1560);
     bench_safe_prime_generation(1, 256);
 }
